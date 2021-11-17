@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-lst = number % 10
+lst = abs(number) % 10
+if number < 0:
+    lst = -lst
 l = "Last digit of {} is {} and is {}"
 if lst > 5:
     print(l.format(number, lst, "greater than 5"))
