@@ -3,4 +3,4 @@ def print_last_digit(number):
     lst = abs(number) % 10
     if number < 0:
         lst = -lst
-    print(lst)
+    print("{:d}".format(lst))
