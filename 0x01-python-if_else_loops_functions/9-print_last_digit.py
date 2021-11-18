@@ -4,3 +4,4 @@ def print_last_digit(number):
     if number < 0:
         lst = -lst
     print("{:d}".format(lst))
+    return(lst)
