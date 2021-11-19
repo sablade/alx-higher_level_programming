@@ -15,4 +15,3 @@ if __name__ == "__main__":
         while i >= 1 and i < argc:
             print("{}: {}".format(i, args[i]))
             i += 1
-
