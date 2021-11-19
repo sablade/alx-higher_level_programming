@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-stdout.write("#pythoniscool\n")
+if __name__ == "__main__":
+    disp = "#pythoniscool\n"
