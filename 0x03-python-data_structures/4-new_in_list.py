@@ -7,4 +7,5 @@ def new_in_list(my_list, idx, element):
     elif idx >= listLen:
         print(newList)
     else:
-        my_list[idx] = element
+        newList[idx] = element
+        return newList
