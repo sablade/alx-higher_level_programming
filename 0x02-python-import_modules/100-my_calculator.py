@@ -2,10 +2,10 @@
 def main(argv):
     argc = len(argv)
     ops = {
-            '+': add,
-            '-': sub,
-            '*': mul,
-            '/': div,
+        '+': add,
+        '-': sub,
+        '*': mul,
+        '/': div,
     }
     if argc != 4:
         print('Usage: {:s} <a> <operator> <b>'.format(argv[0]))
